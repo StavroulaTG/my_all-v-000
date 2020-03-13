@@ -8,6 +8,8 @@ def my_all?(collection)
     i += 1
   end
 
+  binding.pry
+
   if block_return_values.include?(false)
     false
   else
